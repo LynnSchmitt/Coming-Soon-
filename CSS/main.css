@@ -1,0 +1,120 @@
+*{
+	Box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300);
+
+h1, h2, h3, button, time{
+	font-family: 'teko', sans-serif;
+}
+
+h1, h2, h3, button, time, p, footer {
+	color: white;
+}
+h1 {
+	font-size: 120px;
+	margin-bottom: 45px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+main header p {
+	font-size: 26px;
+	margin-bottom: 30px;
+	max-width: 665px;
+}
+main p{ 
+	font-size: 16px;
+	max-width: 665px;
+	margin-bottom: 60px;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+aside p {
+	font-size: 18px;
+	margin-bottom: 40px;
+	max-width: 450px;
+}
+
+h3 {
+	font-size: 20px;
+	text-decoration: uppercase;
+}
+
+.fa fa-twitter {
+	color: white;
+}
+
+body{
+	font-family: 'Titillium Web', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background: url(../img/background1.png) center center fixed;
+	background-size: cover;
+	max-width: 1170px;
+	margin: 0 auto;
+	color: white;
+}
+
+img {
+	height: 70px;
+	width: 70px;
+}
+nav{
+	float: right;
+}
+
+button {
+	background-color: #f63c3c;
+	height: 50px;
+	width: 120px;
+	color: white;
+	font-size: 20px;
+	border: none;
+	margin: -3px;
+	}
+
+aside form input {
+	height: 50px;
+	width: 350px;
+	font-family: 'Titillium Web', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+ span {
+ 	color: #959595;
+ }
+
+ footer p a{
+ 	color: white;
+ }
+ 
+ li a {
+ 	color: #959595;
+ }
+ a {
+ 	text-decoration: none;
+ }
+
+ nav ul li {
+ 	display: inline-block;
+ 	padding-left: 20px;
+ }
+
+
+
+
+/*hidden menu should be display type none*/
+
+
+
+
